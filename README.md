@@ -2,7 +2,7 @@
 ## Bienvenido a Casona Wine!!
 Vinoteca La Casona Wine es el lugar donde desde hace más de 20 años la pasión por el buen vino, y las variadas etiquetas se funden en un gran abrazo para brindarle a nuestros clientes lo mejor de nuestros terroirs. CasonaWine un lugar donde el vino se disfruta.
 ## Proyecto 
-![gif](https://github.com/tomassale/Vinoteca-Sale-Final-ReactJs/blob/app/public/img/readme/CasonaWine.gif)
+![gif](../app/public/img/readme/CasonaWine.gif)
 ## Herramientas usadas
 * Firebase: Data Base 9.6.2v
 * React-Bootstrap: Components 2.1.2v
