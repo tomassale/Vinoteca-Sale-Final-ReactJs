@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Luxurious+Roman&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Lobster", cursive;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+body {
+    background-color: blanchedalmond;
+    #root {
+        header {
+            height: 70px;
+            margin-top: 10px;
+            background-color: rgb(248, 211, 156);
+            #casonaWine {
+                font-size: 50px;
+                display: inline;
+                padding: 10px;
+                font-weight: 300;
+            }
+            ul {
+                float: right;
+                li {
+                    display: inline;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    font-size: 45px;
+                    .material-icons {
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+        #greeting {
+            text-align: center;
+            padding: 30px;
+            font-size: 60px;
+        }
+        .grid {
+            margin-bottom: 40px;
+            display: grid;
+            grid-template-columns: repeat(3, 200px);
+            grid-template-rows: repeat(4, 200px);
+            grid-column-gap: 180px;
+            grid-row-gap: 200px;
+            justify-content: center;
+            .item {
+                height: 325px;
+                width: 280px;
+                margin-top: 20px;
+                text-align: center;
+                background-color: rgb(245, 174, 82);
+                div {
+                    .nombre {
+                        font-size: 32px;
+                        margin-top: 10px;
+                    }
+                    div {
+                        img {
+                            border: 8px dotted rgb(192, 115, 20);
+                            width: 150px;
+                            height: 150px;
+                            margin-bottom: 15px;
+                        }
+                    }
+                    button {
+                        background-color: bisque;
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+        #item {
+            margin: 200px 430px 50px 520px;
+            border: 10px black dotted;
+            background-color: rgb(238, 190, 132);
+            .flex {
+                text-align: center;
+                display: flex;
+                height: max-content;
+                width: max-content;
+                .flexL {
+                    height: 500px;
+                    width: 500px;
+                    h2 {
+                        font-size: 60px;
+                    }
+                    img {
+                        height: 400px;
+                        width: 400px;
+                    }
+                }
+                .flexR {
+                    height: 300px;
+                    width: 400px;
+                    margin-top: 100px;
+                    #precio {
+                        font-size: 50px;
+                    }
+                    #descripcion {
+                        font-size: 30px;
+                    }
+                    .finalizar {
+                        height: 40px;
+                        width: 250px;
+                        background-color: rgb(252, 221, 183);
+                        font-size: 23px;
+                        margin-top: 9px;
+                    }
+                    .finalizar:hover {
+                        color: rgb(243, 202, 139);
+                        background-color: rgb(243, 159, 33);
+                    }
+                    .botones {
+                        margin: auto;
+                        text-align: center;
+                        background-color: rgb(248, 188, 114);
+                        height: 110px;
+                        width: 300px;
+                        .contador {
+                            display: flex;
+                            background-color: rgb(253, 228, 191);
+                            width: 300px;
+                            button {
+                                border: 0px;
+                                background-color: initial;
+                                padding: 7px;
+                                margin-left: 62px;
+                                margin-right: 55px;
+                                font-size: 25px;
+                                color: rgb(70, 49, 21);
+                            }
+                            p {
+                                width: 20px;
+                                height: 20px;
+                                padding: 10px;
+                                font-size: 25px;
+                            }
+                        }
+                        .agregarAlCarrito {
+                            button {
+                                height: 40px;
+                                width: 250px;
+                                background-color: rgb(252, 221, 183);
+                                font-size: 23px;
+                                margin-top: 9px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .carrito {
+            h1 {
+                text-align: center;
+                padding: 30px;
+                font-size: 60px;
+            }
+            p {
+                margin-right: 130px;
+                font-size: 40px;
+                margin-bottom: 20px;
+                text-align: end;
+            }
+            .carritoVacio {
+                text-align: center;
+                h2 {
+                    margin-top: 110px;
+                    font-size: 40px;
+                }
+                button {
+                    border-radius: 50px;
+                    margin-top: 120px;
+                    font-size: 25px;
+                    background-color: transparent;
+                    background-color: rgb(255, 218, 170);
+                    padding: 5px;
+                }
+                button:hover {
+                    color: rgb(214, 172, 109);
+                }
+            }
+            .carritoProductos {
+                margin-top: 100px;
+                ul{
+                    .productoCarrito {
+                        text-decoration: none;
+                        display: flex;
+                        width: 1350px;
+                        height: max-content;
+                        margin-left: auto;
+                        margin-right: auto;
+                        margin-top: 10px;
+                        background-color: rgb(250, 212, 158);
+                        border: double 1px rgb(236, 186, 116);
+                        .imagenC {
+                            margin-left: 15px;
+                            img{
+                                width: 97px;
+                                height: 97px;
+                            }
+                        }
+                        .nombre {
+                            margin-left: 70px;
+                            margin-top: 18px;
+                            width: 400px;
+                            h4 {
+                                font-size: 45px;
+                            }
+                        }
+                        .valorUnitario {
+                            width: 620px;
+                            margin-left: 100px;
+                            margin-top: 14px;
+                            p {
+                                font-size: 40px;
+                            }
+                        }
+                        .cantidadAgregada {
+                            font-size: 25px;
+                        }
+                        .equis {
+                            margin: 25px 25px 25px 25px;
+                            button {
+                                font-size: 30px;
+                                background-color: transparent;
+                                border: 0px;
+                            }
+                        }
+                    }
+                }
+            }
+            #limpiar {
+                text-align: center;
+                font-size: 25px;
+                float: right;
+                margin: 20px 10cm;
+                button {
+                    background-color: rgb(255, 207, 134);
+                    border-radius: 6px;
+                    padding: 4px;
+                }
+                button:hover {
+                    color: rgb(206, 163, 99);
+                }
+            }
+            #finalizar {
+                text-align: center;
+                margin-top: 150px;
+                button {
+                    border-radius: 50px;
+                    font-size: 25px;
+                    background-color: transparent;
+                    background-color: rgb(255, 218, 170);
+                    padding: 5px;
+                }
+                button:hover {
+                    color: rgb(214, 172, 109);
+                }
+            }
+        }
+        footer {
+            height: max-content;
+            width: 100%;
+            padding: 1%;
+            margin-top: 450px;
+            background-color: rgba(0, 0, 0, 0.808);
+            color: rgb(219, 225, 230);
+            .copyright {
+                text-align: center;
+                padding: 8px;
+                font-size: 30px;
+            }
+            .redesSociales {
+                display: flex;
+                justify-content: space-evenly;
+                .redes {
+                    margin-top: 20px;
+                    h2 {
+                        text-align: center;
+                    }
+                    img {
+                        padding: 10px;
+                    }
+                }
+                .lorem {
+                    margin-top: 30px;
+                    h3 {
+                        display: inline;
+                        padding: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
