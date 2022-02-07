@@ -13,7 +13,7 @@ Vinoteca La Casona Wine es el lugar donde desde hace más de 20 años la pasión
 * react-router-dom: 6.2.1v
 * react-scripts: 2.1.2v
 ## Componentes
-![imagen](https://github.com/tomassale/Vinoteca-Sale-Final-ReactJs/blob/app/public/img/readme/Componentes.jpeg)
+![imagen](../app/public/img/readme/Componentes.jpeg)
 - NavBar: Permite realizar el routeo hacia el carrito/cantidad de productos agregados al carrito o las categorias de los productos
 - ItemDetailContainer: Muestra el detalle del producto donde tiene el ItemCount el cual permite agregar productos al carrito y llevar al archivo Carrito
 - ItemListContainer: Muestra todos los productos, el cual incluye el boton con routeo a ItemDetail
