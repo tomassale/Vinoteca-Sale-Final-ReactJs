@@ -2,7 +2,7 @@
 ## Bienvenido a Casona Wine!!
 Vinoteca La Casona Wine es el lugar donde desde hace más de 20 años la pasión por el buen vino, y las variadas etiquetas se funden en un gran abrazo para brindarle a nuestros clientes lo mejor de nuestros terroirs. CasonaWine un lugar donde el vino se disfruta.
 ## Proyecto 
-![gif](../app/public/img/readme/CasonaWine.gif)
+![gif](https://github.com/tomassale/Vinoteca-Sale-Final-ReactJs/blob/main/public/img/readme/CasonaWine.gif?raw=true)
 ## Herramientas usadas
 * Firebase: Data Base 9.6.2v
 * React-Bootstrap: Components 2.1.2v
@@ -13,7 +13,7 @@ Vinoteca La Casona Wine es el lugar donde desde hace más de 20 años la pasión
 * react-router-dom: 6.2.1v
 * react-scripts: 2.1.2v
 ## Componentes
-![imagen](../app/public/img/readme/Componentes.jpeg)
+![imagen](https://github.com/tomassale/Vinoteca-Sale-Final-ReactJs/blob/main/public/img/readme/Componentes.jpeg?raw=true)
 - NavBar: Permite realizar el routeo hacia el carrito/cantidad de productos agregados al carrito o las categorias de los productos
 - ItemDetailContainer: Muestra el detalle del producto donde tiene el ItemCount el cual permite agregar productos al carrito y llevar al archivo Carrito
 - ItemListContainer: Muestra todos los productos, el cual incluye el boton con routeo a ItemDetail
