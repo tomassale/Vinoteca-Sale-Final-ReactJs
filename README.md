@@ -34,7 +34,7 @@ Vinoteca La Casona Wine es el lugar donde desde hace más de 20 años la pasión
 ```
 > cd app
 ```
-4.Iniciar
+4. Iniciar
 ```
 > npm start
 ```
