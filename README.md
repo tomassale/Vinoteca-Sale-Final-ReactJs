@@ -39,6 +39,6 @@ Vinoteca La Casona Wine es el lugar donde desde hace más de 20 años la pasión
 > npm start
 ```
 ## Tomás Javier Sale
-* Linkedin: https://www.linkedin.com/in/tom%C3%A1s-sale-147077226/
+* Linkedin: https://www.linkedin.com/in/tomás-sale-147077226/
 * E-mail: tomassale@hotmail.com
 * Teléfono: +54 15 5963-8765
